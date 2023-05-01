@@ -927,12 +927,19 @@ a.meanmenu-reveal {
 .main-banner {
     height: 680px;
     /* background: #464751; */
-    background-color: rgba(250, 212, 23, 0.829);
+
+    background: url(../../assets/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(90, 82, 42, 0.6);
     background-blend-mode: multiply;
+
+    /* background-color: rgba(250, 212, 23, 0.829);
+    background-blend-mode: multiply; */
     position: relative;
     overflow: hidden;
 }
-.main-banner::before {
+/* .main-banner::before {
     content: "";
     position: absolute;
     -webkit-clip-path: polygon(0 0, 52% 0, 38% 100%, 0 100%);
@@ -942,7 +949,7 @@ a.meanmenu-reveal {
     height: 100%;
     left: 0;
     top: 0;
-}
+} */
 .main-banner-content {
     margin-top: 155px;
     position: relative;
