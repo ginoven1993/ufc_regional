@@ -931,7 +931,7 @@ a.meanmenu-reveal {
     background: url(../../assets/images/banner.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgba(90, 82, 42, 0.6);
+    background-color: rgba(167, 149, 62, 0.6);
     background-blend-mode: multiply;
 
     /* background-color: rgba(250, 212, 23, 0.829);
@@ -1094,14 +1094,14 @@ a.meanmenu-reveal {
     width: 100%;
 }
 .about-content {
-    background: #464751;
+    background: #ff1c2f;
     padding: 45px;
     margin-top: 140px;
     margin-left: -100px;
 }
 .about-content h2 {
     position: relative;
-    color: #de302f;
+    color: #fff;
     font-size: 40px;
     display: inline-block;
     z-index: 1;
@@ -1162,8 +1162,8 @@ a.meanmenu-reveal {
     position: relative;
     display: inline-block;
     font-size: 14px;
-    color: rgba(250, 212, 23, 0.829);
-    border: 1px solid rgba(250, 212, 23, 0.829);
+    color: rgb(255, 217, 29);
+    border: 1px solid rgb(255, 217, 29);
     padding: 5px 15px;
     border-radius: 4px;
 }
@@ -1556,20 +1556,22 @@ a.meanmenu-reveal {
     margin-top: 40px;
 }
 .donate-area {
-    background-image: url(../images/support-bg.jpg);
+    /* background-image: url(../images/support-bg.jpg); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: rgb(255, 217, 29);
+    /* background-blend-mode: multiply; */
     overflow: hidden;
     position: relative;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     transform: translate3d(0, 0, 0);
     z-index: 1;
 }
 .donate-area::before {
     content: "";
     position: absolute;
-    background: #262732;
+    /* background: #262732; */
     left: 0;
     top: 0;
     width: 100%;
@@ -1835,7 +1837,7 @@ label {
     background-repeat: no-repeat;
 }
 .achievement-area::after {
-    background: #464751;
+    background:  rgb(8, 134, 61);
     right: 0;
     left: auto;
 }
