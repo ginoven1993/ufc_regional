@@ -91,7 +91,7 @@
                     
                     <li><a href="about.html">A Propos</a></li>
                      
-                    <li><a href="event.html">Evènements</a></li>
+                    <li><a href="event.html" class="active">Evènements</a></li>
                      
                     <li><a href="gallery.html">Gallerie</a></li>
                     
@@ -103,7 +103,7 @@
                 </ul>
                 
                 <ul class="text-end donate-btn">
-                    <li><a href="donate.html" class="btn btn-primary">Donate</a></li>
+                    <li><a href="donate.html" class="btn btn-primary">Donation</a></li>
                 </ul>
             </nav>
         </div>
@@ -374,6 +374,22 @@
        <script src="assets/js/wow.js"></script>
        <!-- Main JS -->
        <script src="assets/js/main.js"></script>
+       <script>
+        // Récupération des liens de la barre de navigation
+        var links = document.querySelectorAll('nav a');
+
+        // Parcours des liens pour ajouter un événement clic
+        links.forEach(function(link) {
+        link.addEventListener('click', function() {
+            // Suppression de la classe "active" de tous les liens
+            links.forEach(function(link) {
+            link.classList.remove('active');
+            });
+            // Ajout de la classe "active" au lien cliqué
+            this.classList.add('active');
+             });
+        });
+    </script>
    
 </body>
 </html>

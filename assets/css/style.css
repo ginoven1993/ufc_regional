@@ -19,6 +19,16 @@ body {
     padding: 0;
     margin: 0;
 }
+nav li a.active{
+    bottom: -2px;
+    height: 2px;
+    background-color: #f1c40f;
+    transition: height 0.2s ease-in-out;
+}
+.main-nav li a:hover::before,
+.main-nav li a.active::before {
+  width: 100%;
+}
 a {
     color: #313131;
     text-decoration: none;
@@ -516,7 +526,7 @@ textarea.form-control {
     display: block;
 }
 .main-menu-area {
-    background: #eb1b2b;
+    background: #a20815;
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     padding: 20px 0;
@@ -1166,6 +1176,7 @@ a.meanmenu-reveal {
     border: 1px solid rgb(255, 217, 29);
     padding: 5px 15px;
     border-radius: 4px;
+    font-family: 'Libre Baskerville', serif;
 }
 .read-more:hover {
     border-radius: 30px;
@@ -2093,7 +2104,7 @@ label {
 .volunteer-details .blockquote-footer {
     margin-top: 10px;
     font-weight: 600;
-    color: #eb1b2b;
+    color: #a20815;
 }
 .volunteer-contact-info .box {
     margin-top: 30px;
@@ -2104,7 +2115,7 @@ label {
 .volunteer-contact-info .box i {
     font-size: 35px;
     margin-bottom: 15px;
-    color: #eb1b2b;
+    color: #a20815;
     display: block;
 }
 .volunteer-contact-info .box p a {
@@ -2896,7 +2907,7 @@ label {
     background: #eb1b2b;
 }
 .footer-area {
-    background: #eb1b2b;
+    background: #a20815;
 }
 .footer-area .bg {
     background: #fff;
@@ -2948,11 +2959,11 @@ label {
 .footer-widget .quick-links li a {
     position: relative;
     display: inline-block;
-    padding-left: 37px;
+   
     color: #fff;
     font-size: 15px;
 }
-.footer-widget .quick-links li a::before {
+/* .footer-widget .quick-links li a::before {
     content: "";
     position: absolute;
     left: 0;
@@ -2960,7 +2971,7 @@ label {
     width: 28px;
     height: 1px;
     background: #e40943;
-}
+} */
 .footer-widget .quick-links li a:hover {
     color: #eb1b2b;
 }
