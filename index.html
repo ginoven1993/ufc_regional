@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    
 </head>
 <body>
     <!-- Start Preloader Area -->
@@ -85,7 +86,7 @@
                     <a href="index.html"><img style="width: 80px;height: 40px;" src="assets/images/log.png" alt="logo"></a>
                 </div>
                 <ul class="main-nav">
-                    <li><a href="index.html" class="active">Accueil</a>
+                    <li><a href="index.html">Accueil</a>
                     </li>
                     
                     <li><a href="about.html">A Propos</a></li>
@@ -94,7 +95,7 @@
                      
                     <li><a href="gallery.html">Gallerie</a></li>
                     
-                    <li><a href="#">Articles</a>
+                    <li><a href="blog.html">Articles</a>
                     </li>
                     
                     <li><a href="contact.html">Contact</a></li>
@@ -208,10 +209,10 @@
         <p style="font-family: 'Roboto', sans-serif;">Rejoignez-nous et participez a nos campagnes pour qu'elles soient couronnées de succès. Votre formulaire soutien et votre participation active sont nécessaires pour que la campagne soit couronnée de succès.</p>
       </div> 
      
-       <div class="tab-content wow fadeInUp" data-delay="1.4">
+       <div class="tab-content wow fadeInUp" style="visibility: visible;animation-name: fadeInUp;">
               
-              <div class="row">
-                 <div class="col-xs-12 col-lg-4 tdata fadeInUp">
+              <div class="row d-flex justify-content-center align-items-center">
+                 <div class="col-xs-6 col-lg-4 col-md-8 col-sm-12 tdata">
                         <div class="event_inner">     	
                              <div class="listing-thumb">
                                 <a href="#"><img src="assets/images/event.jpg" class="img-fluid" alt="image"> </a>				
@@ -239,7 +240,7 @@
               
               </div>
           </div> 
-                      <div class="col-xs-12 col-lg-4 tdata" data-animate="fadeInUp" data-delay=".7">
+                      <div class="col-xs-6 col-lg-4 col-md-8 col-sm-12 tdata">
                   <div class="event_inner">     	
               <div class="listing-thumb">
               <a href="#"><img src="assets/images/WHAS.jpg" class="img-fluid" alt="image"></a>				
@@ -268,7 +269,7 @@
               
               </div>
           </div> 
-            <div class="col-xs-12 col-lg-4 tdata">
+            <div class="col-xs-6 col-lg-4 col-md-8 col-sm-12 tdata">
                   <div class="event_inner">     	
               <div class="listing-thumb">
               <a href="#"><img src="assets/images/event.jpg" class="img-fluid" alt="image"> </a>				
@@ -465,6 +466,8 @@
 		<script src="assets/js/wow.js"></script>
 		<!-- Main JS -->
 		<script src="assets/js/main.js"></script>
+
+        <script defer src="assets/js/script.js"></script>
 
         <script>
             // Récupération des liens de la barre de navigation

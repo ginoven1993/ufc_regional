@@ -471,7 +471,7 @@
       margin-top: 12px;
   }
   .achievement-area {
-      background-color: #333;
+      background-color: rgb(8, 134, 61);
   }
   .achievement-area::after,
   .achievement-area::before {
@@ -815,7 +815,7 @@
       padding-bottom: 0;
   }
   .footer-area .bg {
-      background: 0 0;
+      background: #fff 0;
   }
   .footer-widget {
       margin-bottom: 40px;
@@ -832,7 +832,7 @@
       max-width: 558px;
   }
   .achievement-area {
-      background-color: #333;
+      background-color: rgb(8, 134, 61);
   }
   .achievement-area::after,
   .achievement-area::before {

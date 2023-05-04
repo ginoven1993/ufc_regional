@@ -19,16 +19,30 @@ body {
     padding: 0;
     margin: 0;
 }
-nav li a.active{
-    bottom: -2px;
-    height: 2px;
-    background-color: #f1c40f;
-    transition: height 0.2s ease-in-out;
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #f1c40f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
 }
-.main-nav li a:hover::before,
-.main-nav li a.active::before {
-  width: 100%;
+nav .main-nav li a:hover{
+    color: #f1c40f;
 }
+nav .main-nav li a.active{
+    color: #f1c40f;
+}
+nav ul li a:focus{
+    color: #f1c40f;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
 a {
     color: #313131;
     text-decoration: none;
@@ -395,7 +409,7 @@ textarea.form-control {
 }
 .middle-header {
     background: #fff;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 .middle-header .logo {
     display: inline-block;
@@ -411,7 +425,7 @@ textarea.form-control {
     margin: 0;
     list-style-type: none;
     text-align: right;
-    margin-bottom: -10px;
+    margin-top: 10px;
 }
 .middle-header ul li {
     display: inline-block;
@@ -834,6 +848,10 @@ a.meanmenu-reveal {
     .main-menu-area {
         background-color: #fff;
     }
+    .main-navbar-nav .logo img{
+        width: 40px;
+        height: 60px;
+    }
     .mean-container a.meanmenu-reveal span {
         background-color: #333;
     }
@@ -1109,7 +1127,7 @@ a.meanmenu-reveal {
     width: 100%;
 }
 .about-content {
-    background: #ff1c2f;
+    background: #a20815;
     padding: 45px;
     margin-top: 140px;
     margin-left: -100px;
@@ -2237,6 +2255,8 @@ label {
 }
 .single-blog-post {
     margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
 }
 .single-blog-post img {
     width: 100%;

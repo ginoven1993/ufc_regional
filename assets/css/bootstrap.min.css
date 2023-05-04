@@ -1173,6 +1173,11 @@ progress {
     .col-md {
         flex: 1 0 0%
     }
+    /* .row-cols-md-8>* {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
 
     .row-cols-md-auto>* {
         flex: 0 0 auto;
@@ -3202,7 +3207,7 @@ textarea.form-control.is-invalid {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: .375rem .75rem;
+    padding: 1.15rem 2.75rem;
     font-size: 1rem;
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
@@ -3278,8 +3283,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: rgba(250, 212, 23, 0.829);
-    border-color: rgba(250, 212, 23, 0.829)
+    background-color: rgb(255, 219, 39);
+    border-color: rgba(255, 219, 39)
 }
 
 .btn-secondary:hover {
