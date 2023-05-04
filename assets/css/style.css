@@ -30,7 +30,7 @@ nav ul li a::after {
     bottom: -6px;
     transition: 0.5s;
 }
-nav .main-nav li a:hover{
+nav ul li a:hover{
     color: #f1c40f;
 }
 nav .main-nav li a.active{
