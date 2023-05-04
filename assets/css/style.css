@@ -24,7 +24,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 5px;
-    background: #f1c40f;
+    /* background: #f1c40f; */
     position: absolute;
     left: 0;
     bottom: -6px;
